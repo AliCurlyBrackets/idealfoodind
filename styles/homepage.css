@@ -1,0 +1,528 @@
+#homepage{
+	display:block;
+	width:100%;
+	line-height:1.6em;
+	}
+
+#homepage .fl_left{
+	display:block;
+	width:500px;
+	}
+	
+#homepage .left{
+	display:block;
+	width:630px;
+	}
+#homepage .f { float:left;
+                width:90px;
+	
+	}
+	
+#homepage .left h3{	
+	margin:-6px 0 6px 10px;
+	font-size:27px;
+	color:#007fad;
+ }
+#homepage #hpage_slider{
+	display:block;
+	width:498px;
+	height:338px;
+	color:#999999;
+	background-color:#FAFAFA;
+	border:1px solid #D8D9DE;
+	border-bottom-color:#FAFAFA;
+	overflow:hidden;
+	}
+
+#homepage #hpage_slider div.item{
+	position:relative;
+	display:block;
+	width:480px;
+	height:320px;
+	margin:9px;
+	}
+
+
+
+
+/* ----------------------------------------------Slider Navigation Buttons-------------------------------------*/
+
+/*
+
+Navigation dynamically created using: jquery.cycle.setup.js and jquery.cycle.min.js
+
+HTML Output:
+
+<div id="fsn">
+  <ul id="fs_pagination">
+    <li><a href="javascript:void()">1</a></li>
+    <li><a href="javascript:void()">2</a></li>
+    <li><a href="javascript:void()">3</a></li>
+    <li><a href="javascript:void()">4</a></li>
+    <li><a href="javascript:void()">5</a></li>
+  </ul>
+</div>
+
+*/
+
+#homepage #fsn{
+	display:block;
+	position:relative;
+	width:498px;
+	height:18px;
+	margin:0 0 25px 0;
+	text-align:center;
+	z-index:1000;
+	color:#999999;
+	background-color:#FAFAFA;
+	border:1px solid #D8D9DE;
+	border-top-color:#FAFAFA;
+	}
+
+#homepage #fsn ul{
+	display:block;
+	position:relative;
+	width:100px;
+	height:10px;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+	list-style:none;
+	}
+
+#homepage #fsn ul li, #homepage #fsn ul li a{
+	display:block;
+	float:left;
+	width:10px;
+	height:10px;
+	margin:0 10px 0 0;
+	padding:0;
+	}
+
+#homepage #fsn ul li a{
+	float:none;
+	border:none;
+	margin:0;
+	outline:none;
+	text-indent:-5000px;
+	text-decoration:none;
+	background:url("../images/slide.png") 50% 50% no-repeat;
+	}
+
+#homepage #fsn .activeSlide{
+	background:url("../images/slide.png") 0% 50% no-repeat;
+	}
+
+/* ----------------------------------------------Right Column-------------------------------------*/
+
+#homepage .fl_right{
+	display:block;
+	width:350px;
+	
+	}
+	
+	#homepage .login{
+	display:block;
+	width:300px;
+	float:right;
+	height:300px;
+	margin-top:60px;
+	margin-right:10px;
+	
+	}
+
+
+#homepage .fl_right ul, #homepage .fl_right .testimonials p{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#homepage .fl_right .testimonials{
+	display:block;
+	width:100%;
+	margin-bottom:40px;
+	padding-bottom:30px;
+	border-bottom:1px solid #D8D9DE;
+	}
+
+#homepage .fl_right .testimonials li{
+	margin-bottom:25px;
+	background:url("../images/quotemarks.gif") 0 0 no-repeat;
+	}
+
+#homepage .fl_right .testimonials li.last{
+	margin-bottom:0;
+	}
+
+#homepage .fl_right .testimonials p.name{
+	margin:0 0 15px 60px;
+	padding:15px 0 0 0;
+	}
+
+#homepage .fl_right .testimonials blockquote{
+	margin:0 0 5px 0;
+	padding:0;
+	}
+
+/*-----------gallery------------*/
+
+.content{
+	float:right;
+	width:900px;
+	line-height:30px;
+	margin:15px;
+
+	
+}
+.content ul{
+clear:left;
+}
+.content li{ list-style:none;
+display:inline;
+}
+.content  a{ color:#00648f;}
+.content span{
+	margin-left:40px;
+	float:left;
+	width:650px;
+	display:inline;
+	text-align:justify;
+
+}
+.content span ul{ 
+margin:0;
+padding:0;}
+.content span ul li{
+float:left;
+width:310px;
+margin-top:20px;
+margin-right:5px;
+
+}
+
+
+/* main product page gallery */
+ul.hover_block { display: block; overflow: hidden; height: 1%; padding-bottom: 10px; margin-left:20px; }
+			
+		ul.hover_block li, ul.hover_block2 li {
+	list-style: none;
+	float: left;
+	padding: 10px;
+	width: 160px;
+	position: relative;
+	margin-right: 25px;
+	font-size: 14px;
+	margin-bottom: 25px;
+	border: #bccfd6 2px solid;
+	
+
+}
+
+		ul.hover_block li a, ul.hover_block2 li a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 190px;
+	width: 150px;
+	padding: 8px;
+	color: #333;
+}
+	ul.hover_block li a, ul.hover_block2 li a { text-decoration: none;}
+
+	ul.hover_block li img, ul.hover_block2 li img {
+	position: absolute;
+	left: 10px;
+	border: 0;
+	width:150px;
+	height:190px;
+	font-family: Verdana, Geneva, sans-serif;
+	}
+
+	
+/* about */
+
+#about .right{
+	display:block;
+	width:30%;
+	float:right;
+	
+	}
+	
+#about img {
+	margin:25px 140px 0 0;
+}
+
+.about-right{
+	display:block;
+	width:42%;
+	float:left;
+	margin:180px 0 0 120px;
+
+	}
+	
+.about-right 
+p {
+	font-size:15px;
+	color:#666;
+	line-height:24px;
+	text-align:justify;
+	direction:rtl;
+
+}
+
+.first {
+	font-size:17px;
+	color:#f47c20;
+	
+	}
+
+/* qs */
+
+
+ #quality {
+	margin:0 0 0 10px;
+}
+
+
+#qs .left{
+	display:block;
+	width:410px;
+	hight:500px;
+	float:right;
+	
+	}
+	
+#qs img {
+	margin:15px 150px 0 0;
+}
+
+.qs-right{
+	display:block;
+	width:530px;
+	float:left;
+	margin:150px 0 0 130px;
+	direction:rtl;
+	
+
+	}
+	
+.qs-right 
+p {
+	font-size:15px;
+	color:#666;
+	line-height:24px;
+	text-align:justify;
+	direction:rtl;
+
+}
+
+.first {
+	font-size:17px;
+	color:#f47c20;
+	
+	}
+/* privacy */
+
+#pr-center{
+	display:block;
+	width:700px;
+	margin:0 auto;
+	margin-bottom:50px;
+	direction:rtl;
+	
+
+	}
+p {
+	font-size:15px;
+	color:#666;
+	line-height:24px;
+	text-align:justify;
+
+}
+
+.first {
+	font-size:17px;
+	color:#f47c20;
+	
+	}
+
+/* contact */
+
+#contact-left{
+		display:block;
+	    width:40%;
+	    float:right;
+		margin:20px 200px 0 0;
+}
+
+p {
+	font-size:16px;
+	color:#666;
+	line-height:24px;
+	text-align:justify;
+
+}
+
+.bold {
+	font-size:19px;
+	color:#f47c20;
+	font-weight:bold;
+
+}
+#contact-right{
+		display:block;
+	    float:left;
+		margin-top:-20px;
+		margin-left:125px;
+}
+
+
+#contact-right h3{
+	font-size:19px;
+	color:#007fad;
+	font-weight:bold;
+	}
+
+#contact-right label{
+	color:#666;
+	font-size:14px;
+	}
+
+#contact-right input, #contact-right textarea {
+    display:block;
+	width:370px;
+	margin:0 0 15px 0;
+	border:1px solid #818181;
+		}
+
+#contact-right input, #contact-right textarea, #contact-right select{
+	font-size:13px;
+	color:#333;
+	
+	}
+#contact-right input{
+	padding:10px 10px;
+	}
+	
+#contact-right textarea{
+	height:120px;
+	padding:10px;
+	overflow:auto;
+	}
+	
+#contact-right button{
+	width:80px;
+	font-size:16px;
+	margin-top:-5px;
+	float:left;
+	
+}
+	
+		
+/* products */
+
+.products {
+	font-size:15px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#666;
+	line-height:24px;
+	text-align:justify;
+
+}
+
+.first {
+	font-size:17px;
+	color:#f47c20;
+	
+	}
+
+/* details */
+
+#detail { display:block;
+          width:500px;
+		  float:right;
+		  direction:rtl;
+		  margin-right:150px;
+	}
+
+.details{ display:block;
+          float:left;
+		  width:40%;
+		  margin:70px 0 0 0;
+	
+	}
+#detail h3{
+	font-size:21px;
+	color:#f47c20;
+	font-style:italic;
+	font-weight:bold;
+	margin:30px 0 0 125px;
+	}
+	
+.details
+p {
+	font-size:16px;
+	color:#666;
+	line-height:30px;
+	text-align:justify;
+	float:left;
+	font-weight:bold;
+
+
+}
+
+.ff {
+	font-size:18px;
+	color:#f47c20;
+	
+	}
+
+/* pay */
+#pay { display:block;
+          width:800px;
+		  float:left;
+		  margin:50px 0 0 130px;
+	}
+	
+#pay h3{
+	font-size:21px;
+	color:#007fad;
+	font-style:italic;
+	font-weight:bold;
+	}
+#pay form, fieldset, legend{
+	margin:0;
+	padding:0;
+	border:none;
+	}
+#pay label{
+	color:#666;
+	font-size:14px;
+	}
+
+#pay input{
+    display:block;
+	width:250px;
+	margin:0 0 15px 0;
+	border:1px solid #818181;
+		}
+
+#pay input, #pay select{
+	font-size:13px;
+	color:#333;
+	
+	}
+#pay input{
+	padding:5px 10px;
+	}
+	
+	
+#pay button{
+	margin-left:315px;
+	width:80px;
+	font-size:14px;
+	margin-top:-5px;
+	
+}
+	
